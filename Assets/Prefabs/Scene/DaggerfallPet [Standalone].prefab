@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8085165298136769772
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 140354, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: m_Name
+      value: DaggerfallPet [Standalone]
+      objectReference: {fileID: 0}
+    - target: {fileID: 481572, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481572, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481572, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481572, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481572, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 481572, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481572, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481572, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481572, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481572, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 481572, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11410784, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: EnemyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11410784, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: LightAura
+      value: 
+      objectReference: {fileID: 8085165298136891566}
+    - target: {fileID: 11410784, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: EnemyGender
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11410784, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: EnemyReaction
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11410784, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: AlliedToPlayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11435454, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+      propertyPath: EntityType
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11452974, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+    - {fileID: 11424130, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+    - {fileID: 11499798, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
+--- !u!1 &8085165298136891566 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 140354, guid: bb371757861765d4e8cd34d3dde6f640,
+    type: 3}
+  m_PrefabInstance: {fileID: 8085165298136769772}
+  m_PrefabAsset: {fileID: 0}
