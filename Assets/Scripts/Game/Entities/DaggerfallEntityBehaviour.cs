@@ -4,8 +4,8 @@
 // License:         MIT License (http://www.opensource.org/licenses/mit-license.php)
 // Source Code:     https://github.com/Interkarma/daggerfall-unity
 // Original Author: Gavin Clayton (interkarma@dfworkshop.net)
-// Contributors:    
-// 
+// Contributors:
+//
 // Notes:
 //
 
@@ -287,6 +287,9 @@ namespace DaggerfallWorkshop.Game.Entity
                     break;
                 case EntityTypes.CivilianNPC:
                     Entity = new CivilianEntity(this);
+                    break;
+                case EntityTypes.PlayerPet:
+                    Entity = new PlayerPetEntity(this);
                     break;
             }
 

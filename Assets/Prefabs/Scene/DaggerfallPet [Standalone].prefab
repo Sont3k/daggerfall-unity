@@ -77,7 +77,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11435454, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
       propertyPath: EntityType
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11452974, guid: bb371757861765d4e8cd34d3dde6f640, type: 3}
