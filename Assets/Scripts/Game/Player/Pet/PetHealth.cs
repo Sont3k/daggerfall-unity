@@ -16,16 +16,22 @@ namespace DaggerfallWorkshop.Game
         private void Start()
         {
             _petEntity = _daggerfallEntityBehaviour.Entity as PlayerPetEntity;
+            InitHealthBar();
 
             IncreaseHealth(50); // for testing purposes
             DecreaseHealth(10);
         }
 
-        private void UpdateHealthBar()
+        private void InitHealthBar()
         {
             _healthSlider.minValue = _minHealth;
             _healthSlider.value = _petEntity.CurrentHealth;
             _healthSlider.maxValue = _petEntity.MaxHealth;
+        }
+
+        private void UpdateHealthBar()
+        {
+            _healthSlider.value = _petEntity.CurrentHealth;
         }
 
         // Not used for now but can be used in future to increase health with UI update
