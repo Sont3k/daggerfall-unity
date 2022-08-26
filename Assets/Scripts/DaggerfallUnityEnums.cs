@@ -492,6 +492,7 @@ namespace DaggerfallWorkshop
         StaticNPC,
         EnemyMonster,
         EnemyClass,
+        PlayerPet
     }
 
     /// <summary>
