@@ -400,7 +400,9 @@ MonoBehaviour:
   _characterController: {fileID: 8085165298125861894}
   _followDistance: 2
   _movementSpeed: 5
-  _teleportDistance: 25
+  _teleportDistance: 15
+  _potionDropHealthThreshold: 0.25
+  _potionDropCooldownInitTime: 60
 --- !u!1001 &8085165298136769772
 PrefabInstance:
   m_ObjectHideFlags: 0
